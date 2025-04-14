@@ -3,32 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <title>Clifford's Storyspace</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16'><text x='0' y='14' font-size='16'>🦜</text></svg>">
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
       font-family: 'Georgia', serif;
-      line-height: 1.6;
-      margin: 40px;
-      background: #fefcf9;
+      background-color: #fefcf9;
       color: #333;
+      padding: 60px 20px;
+      line-height: 1.7;
+      font-size: 1.1em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
+
+    main {
+      max-width: 680px;
+      width: 100%;
+    }
+
     h1 {
-      font-size: 2.5em;
-      margin-bottom: 0.3em;
+      font-size: 3.5em;
+      margin-bottom: 0.4em;
+      text-align: center;
     }
+
     p {
-      max-width: 600px;
+      margin: 1em 0;
+    }
+
+    img {
+      display: block;
+      margin: 80px auto 0;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 i {
+      color: #6b4c2e;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 40px 16px;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Hey, I'm Clifford, and this is my <i>storyspace</i>.</h1>
-  <p>
-    I'm collecting fragments of stories,moments of beauty,and the wonder of life as
-    an aesthetic experience. This will be from the distant various places of time, space
-    and experience.
-  </p>
-  <p>Welcome to my corner of the internet! <i>Irashaimase!</i></p>
-  <p>This space will grow slowly. With care.</p>
-  <img src="cliff_wanted.jpg" alt="My One Piece wanted picture." style="display:block; margin:60px auto 0; max-width:90%; height:auto;">
+  <main>
+    <h1>Hey, I'm Clifford, and this is my <i>storyspace</i></h1>
+    <p>It's a collection of my attempts to see life as an aesthetic experience.</p>
+    <p>
+      I collect fragments of stories, moments of curiosity, beauty, and wonder at life. These fragments come from various places of time, space, and experience—because it's more fun that way.
+    </p>      
+    <p>Welcome to my corner of the internet! <i>Irasshaimase!</i></p>
+    <p>This space will grow slowly. With care.</p>
+    <img src="cliff_wanted.jpg" alt="My One Piece wanted picture.">
+  </main>
 </body>
 </html>
